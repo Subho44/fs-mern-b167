@@ -8,3 +8,16 @@
 q: factorial triangel pattern
 
 */
+
+
+function ftri(rows) {
+    let fact = 1;
+    let out = "";
+    for(let i=1;i<=rows;i++) {
+    fact = fact*i;
+    out += fact + " ";
+    console.log(out);
+    }
+    
+}
+module.exports = {ftri}
